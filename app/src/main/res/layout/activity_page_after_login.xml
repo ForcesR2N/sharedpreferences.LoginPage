@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN PAGE"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your username"
+            android:textSize="25dp"
+            android:id="@+id/usernameTV"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Password"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/passwordTV"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="LOGOUT"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnLogOut"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
